@@ -1,8 +1,8 @@
 
-let player = {
-    name : "Akshay",
-    chips : 150
-}
+// let player = {
+//     name : "Akshay",
+//     chips : 150
+// }
 
 let cards = []
 var sum= 0;
@@ -18,8 +18,8 @@ let test = document.querySelector("#test")
 
 
 
-let playerEl = document.getElementById("player-el")
-playerEl.textContent= player.name + ": $"+ player.chips
+// let playerEl = document.getElementById("player-el")
+// playerEl.textContent= player.name + ": $"+ player.chips
 
 
 function getRandomCard(){
